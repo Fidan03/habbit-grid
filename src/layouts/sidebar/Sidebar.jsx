@@ -1,6 +1,6 @@
-import Logo from '../assets/logo.png'
+import Logo from '../../assets/logo.png'
 import styles from './sidebar.module.scss'
-import Sections from '../componenets/allSections/Sections'
+import Sections from '../../componenets/allSections/Sections'
 
 function Sidebar() {
 
@@ -15,6 +15,7 @@ function Sidebar() {
                 <Sections/>
             </div>
         </div>
+        
         <div className={styles.newHbt}>
             <button><span>+</span>New habit</button>
         </div>

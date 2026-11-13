@@ -1,0 +1,59 @@
+.sidebar{
+    max-width: 12.5rem;
+    height: 100vh;
+    padding: 28px 20px;
+    // background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .logoSections{
+        .logo{
+            margin-bottom: 10px;
+            img{
+                height: 34px;
+            }
+        }
+
+        .sections{
+            ul{
+                li{
+                    padding: 11px 12px;
+                    display: flex;
+                    gap: 12px;
+                    align-items: center;
+                    width: 90%;
+                    // background-color: antiquewhite;
+
+                    img{
+                        height: 20px;
+                    }
+                    p{
+                        font-weight: 500;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .newHbt{
+        width: 90%;
+
+        button{
+            background-color: black;
+            font-size: 15px;
+            font-weight: 500;
+            border: none;
+            color: white;
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            height: 46px;
+            cursor: pointer;
+        }
+    }
+}

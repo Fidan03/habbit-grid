@@ -1,12 +1,15 @@
-import Sidebar from "./layouts/sidebar/Sidebar"
+import { Route, Routes } from "react-router"
+import Main from "./layouts/main/Main"
+import Layout from "./layouts/Layout"
 
 function App() {
 
   return (
-    <>
-      <Sidebar/>
-      {/* <div>k</div> */}
-    </>
+    <Routes>
+      <Route element={<Layout/>}>
+        <Route path="/" element={<Main/>}/>
+      </Route>
+    </Routes>
   )
 }
 

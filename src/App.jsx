@@ -1,4 +1,4 @@
-import Sidebar from "./layouts/sidebar"
+import Sidebar from "./layouts/Sidebar"
 
 function App() {
 

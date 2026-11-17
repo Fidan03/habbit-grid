@@ -10,7 +10,7 @@ function Main() {
   return (
     <div className={styles.main}>
         <div className={styles.nav}>
-            <p><Date/></p>
+            <div><Date/></div>
 
             <div className={styles.general}>
                 <p className={styles.greeting}>Good Afternon</p>

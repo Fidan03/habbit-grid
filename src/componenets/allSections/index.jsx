@@ -7,7 +7,7 @@ function Sections() {
             <div className={styles.sections}>
                 <ul>
                     {sections.map((section) => (
-                        <li id={section.id}>
+                        <li id={section.id} key={section.id}>
                             <img src={section.img} className={styles.eachSection}/>
                             <p>{section.text}</p>
                         </li>

@@ -6,14 +6,14 @@ function Main() {
   return (
     <div className={styles.main}>
         <div className={styles.nav}>
-            <p>Thursday, 12 Novermber</p>
+            <p className={styles.date}>Thursday, 12 Novermber</p>
 
-            <div>
-                <p>Good Afternon</p>
-                <p>You've done <span>3 of 5</span> habits today</p>
+            <div className={styles.general}>
+                <p className={styles.greeting}>Good Afternon</p>
+                <p className={styles.accomplished}>You've done <span>3 of 5</span> habits today</p>
             </div>
 
-            <div>
+            <div className={styles.achieved}>
                 <div>
                     <p>Current streak</p>
                     <span>12 days</span>

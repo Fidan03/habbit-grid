@@ -1,0 +1,32 @@
+.main{
+    padding: 36px 40px 48px 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    .nav{
+        .date{
+            color: #5B6170;
+            padding-bottom: 16px;
+        }
+
+
+        .general{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .greeting{
+                font-size: 34px;
+                font-weight: bold;
+            }
+
+            .accomplished{
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

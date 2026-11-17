@@ -1,12 +1,14 @@
+import Date from '../../componenets/date'
 import Progress from '../../componenets/progressBar'
 import styles from './index.module.scss'
+
 
 function Main() {
 
   return (
     <div className={styles.main}>
         <div className={styles.nav}>
-            <p className={styles.date}>Thursday, 12 Novermber</p>
+            <p><Date/></p>
 
             <div className={styles.general}>
                 <p className={styles.greeting}>Good Afternon</p>

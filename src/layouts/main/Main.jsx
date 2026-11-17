@@ -1,4 +1,5 @@
 import Date from '../../componenets/date'
+import Achievements from '../../componenets/MonthlyAchievements'
 import Progress from '../../componenets/progressBar'
 import styles from './index.module.scss'
 
@@ -16,22 +17,7 @@ function Main() {
             </div>
 
             <div className={styles.achieved}>
-                <div>
-                    <p>Current streak</p>
-                    <span>12 days</span>
-                </div>
-                <div>
-                    <p>Best streak</p>
-                    <span>34 days</span>
-                </div>
-                <div>
-                    <p>Completion this month</p>
-                    <span>82%</span>
-                </div>
-                <div>
-                    <p>Total check-ins</p>
-                    <span>1,248</span>
-                </div>
+                <Achievements/>
             </div>
         </div>
 

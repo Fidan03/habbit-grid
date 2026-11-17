@@ -1,6 +1,6 @@
 import Logo from '../../assets/logo.png'
-import styles from './sidebar.module.scss'
-import Sections from '../../componenets/allSections/Sections'
+import styles from './styles.module.scss'
+import Sections from '../../componenets/allSections/index'
 
 function Sidebar() {
 

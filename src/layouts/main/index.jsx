@@ -1,5 +1,6 @@
 import Date from '../../componenets/date'
-import Achievements from '../../componenets/MonthlyAchievements'
+import HabitList from '../../componenets/habitList'
+import Achievements from '../../componenets/monthlyAchievements'
 import Progress from '../../componenets/progressBar'
 import styles from './index.module.scss'
 
@@ -24,10 +25,10 @@ function Main() {
         <div>
             <div>
                 <p>Today's habits</p>
-                <div className={styles.progress}></div>
+                <div className={styles.progress}><Progress/></div>
             </div>
-            <div className={styles.taskList}>
-                <Progress/>
+            <div className={styles.habitList}>
+                <HabitList/>
             </div>
         </div>
 

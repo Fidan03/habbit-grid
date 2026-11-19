@@ -1,4 +1,5 @@
 import Date from '../../componenets/date'
+import Grid from '../../componenets/grid'
 import HabitList from '../../componenets/habitList'
 import Achievements from '../../componenets/monthlyAchievements'
 import Progress from '../../componenets/progressBar'
@@ -36,14 +37,14 @@ function Main() {
             </div>
         </div>
 
-        <div>
-            <div>
-                <p>Your year</p>
-                <p>1,248 check-ins in the last 12 months</p>
+        <div className={styles.grid}>
+            <div className={styles.gridHeader}>
+                <p className={styles.title}>Your year</p>
+                <p className={styles.subtitle}>1,248 check-ins in the last 12 months</p>
             </div>
 
             <div className={styles.grid}>
-
+                <Grid/>
             </div>
         </div>
     </div>

@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.svg'
 import styles from './styles.module.scss'
 import Sections from '../../componenets/allSections/index'
 

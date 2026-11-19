@@ -1,7 +1,7 @@
-import today from '../assets/today.png'
-import allHabits from '../assets/all habbits.png'
-import statistics from '../assets/statistics.png'
-import settings from '../assets/settings.png'
+import today from '../assets/nav-today.svg'
+import allHabits from '../assets/nav-habits.svg'
+import statistics from '../assets/nav-statistics.svg'
+import settings from '../assets/nav-settings.svg'
 
 const Sections = [
     {

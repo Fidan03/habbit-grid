@@ -29,6 +29,10 @@ function Main() {
             </div>
             <div className={styles.habitList}>
                 <HabitList/>
+                <HabitList/>
+                <HabitList/>
+                <HabitList/>
+                <HabitList/>
             </div>
         </div>
 

@@ -29,6 +29,9 @@
         background-color: white;
         padding: 18px 20px;
         border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
 
         .habitsHeader{
             display: flex;

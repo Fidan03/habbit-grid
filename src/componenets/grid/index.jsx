@@ -5,7 +5,7 @@ const Grid = () => {
   return (
     <div className={styles.container}>
         {squires.map((_, index) => (
-            <div key={{index}}></div>
+            <div key={{index}} className={styles.cell}></div>
         ))}
     </div>
   )

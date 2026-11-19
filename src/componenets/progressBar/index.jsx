@@ -4,7 +4,7 @@ function Progress() {
 
   return (
     <div className={styles.progress}>
-        <div></div>
+        <div className={styles.bar}></div>
     </div>
   )
 }

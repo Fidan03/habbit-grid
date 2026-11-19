@@ -24,4 +24,20 @@
             }
         }
     }
+
+    .habitList{
+        background-color: white;
+        padding: 18px 20px;
+        border-radius: 14px;
+
+        .habitsHeader{
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
 }

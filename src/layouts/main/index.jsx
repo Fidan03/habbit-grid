@@ -22,8 +22,8 @@ function Main() {
             </div>
         </div>
 
-        <div>
-            <div>
+        <div className={styles.habitList}>
+            <div className={styles.habitsHeader}>
                 <p>Today's habits</p>
                 <div className={styles.progress}><Progress/></div>
             </div>
